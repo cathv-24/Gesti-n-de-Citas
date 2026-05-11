@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Gestión_de_Citas.Forms
+namespace Gestión_de_Citas.Forms.Especialista
 {
-    public partial class From_administrador : Form
+    public partial class From_disponibilidad : Form
     {
-        public From_administrador()
+        public From_disponibilidad()
         {
             InitializeComponent();
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

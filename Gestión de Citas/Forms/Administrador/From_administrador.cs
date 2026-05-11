@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Gestión_de_Citas.Forms
+namespace Gestión_de_Citas.Forms.Administrador
 {
-    public partial class From_registro : Form
+    public partial class From_administrador : Form
     {
-        public From_registro()
+        public From_administrador()
         {
             InitializeComponent();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Gestión_de_Citas
+namespace Gestión_de_Citas.Forms.Especialista
 {
-    public partial class Form1 : Form
+    public partial class From_especialista : Form
     {
-        public Form1()
+        public From_especialista()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

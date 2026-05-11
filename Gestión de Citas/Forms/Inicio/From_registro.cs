@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Gestión_de_Citas.Forms
+namespace Gestión_de_Citas.Forms.Inicio
 {
-    public partial class Form_disponibilidad : Form
+    public partial class From_registro : Form
     {
-        public Form_disponibilidad()
+        public From_registro()
         {
             InitializeComponent();
         }

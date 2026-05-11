@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Gestión_de_Citas.Forms
+namespace Gestión_de_Citas.Forms.Administrador
 {
-    public partial class From_agendar_cita : Form
+    public partial class Form_especialista_datos : Form
     {
-        public From_agendar_cita()
+        public Form_especialista_datos()
         {
             InitializeComponent();
         }

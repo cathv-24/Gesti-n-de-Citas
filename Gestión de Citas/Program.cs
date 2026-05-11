@@ -16,7 +16,7 @@ namespace Gestión_de_Citas
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Forms.Inicio.From_login());
         }
     }
 }
