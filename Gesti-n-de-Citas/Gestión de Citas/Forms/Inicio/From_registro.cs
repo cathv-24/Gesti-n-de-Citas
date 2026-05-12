@@ -16,5 +16,10 @@ namespace Gestión_de_Citas.Forms.Inicio
         {
             InitializeComponent();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
