@@ -16,5 +16,10 @@ namespace Gestión_de_Citas.Forms.Administrador
         {
             InitializeComponent();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

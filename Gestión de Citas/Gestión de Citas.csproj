@@ -46,6 +46,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\Administrador_controller.cs" />
+    <Compile Include="Controllers\Buscar_especialista_controller.cs" />
+    <Compile Include="Controllers\Cliente_controller.cs" />
+    <Compile Include="Controllers\Disponibilidad_controller.cs" />
+    <Compile Include="Controllers\Especialista_controller.cs" />
+    <Compile Include="Controllers\Especialista_datos_controller.cs" />
+    <Compile Include="Controllers\Horario_especialista_controller.cs" />
+    <Compile Include="Controllers\Login_controller.cs" />
+    <Compile Include="Controllers\Modificar_controller.cs" />
+    <Compile Include="Controllers\Registro_controller.cs" />
+    <Compile Include="Entities\Administrador.cs" />
+    <Compile Include="Entities\Bloqueo_horario.cs" />
+    <Compile Include="Entities\Cita.cs" />
+    <Compile Include="Entities\Cliente.cs" />
+    <Compile Include="Entities\Disponibilidad.cs" />
+    <Compile Include="Entities\Especialista.cs" />
+    <Compile Include="Entities\Log_actividad.cs" />
+    <Compile Include="Entities\Nota.cs" />
+    <Compile Include="Entities\Reporte.cs" />
+    <Compile Include="Entities\Rol.cs" />
+    <Compile Include="Entities\Tipo_consultaria.cs" />
+    <Compile Include="Entities\Usuario.cs" />
     <Compile Include="Forms\Administrador\Form_especialista_datos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -164,5 +186,6 @@
   <ItemGroup>
     <None Include="Resources\logo.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
