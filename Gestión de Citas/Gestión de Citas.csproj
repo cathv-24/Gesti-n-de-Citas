@@ -66,7 +66,7 @@
     <Compile Include="Entities\Nota.cs" />
     <Compile Include="Entities\Reporte.cs" />
     <Compile Include="Entities\Rol.cs" />
-    <Compile Include="Entities\Tipo_consultaria.cs" />
+    <Compile Include="Entities\Tipo_consultoria.cs" />
     <Compile Include="Entities\Usuario.cs" />
     <Compile Include="Forms\Administrador\Form_especialista_datos.cs">
       <SubType>Form</SubType>
